@@ -1,32 +1,31 @@
-.cardn{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    
+.cardn {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
 }
-.card2{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    flex-wrap: wrap;
+.card2 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
 }
-.youtube{
-    display: flex;
-    justify-content: space-between;
-
+.youtube {
+  display: flex;
+  justify-content: space-between;
 }
 
-.container-pt-4 >.mb-4 > a {
-    box-shadow: 3px 3px 5px rgb(13, 12, 12,);
-    transition: all 0.5s linear;
-    cursor: pointer;
+.container-pt-4 > .mb-4 > a {
+  /* box-shadow: 3px 3px 5px rgb(13, 12, 12); */
+  transition: all 0.5s linear;
+  cursor: pointer;
 }
-.container-pt-4 >.mb-4 > a:hover{
-    /* box-shadow: 5px 5px 10px rgb(184, 151, 151) , -5px -5px 10px rgba(255, 255, 255); */
-    box-shadow: rgba(50, 50, 93, 0.10) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.2) 0px 18px 36px -18px inset;
+.container-pt-4 > .mb-4 > a:hover {
+  /* box-shadow: 5px 5px 10px rgb(184, 151, 151) , -5px -5px 10px rgba(255, 255, 255); */
+  box-shadow: rgba(50, 50, 93, 0.1) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.2) 0px 18px 36px -18px inset;
 }
-.text-center-p-3{
-    cursor: pointer;
+.text-center-p-3 {
+  cursor: pointer;
 }
