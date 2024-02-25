@@ -29,3 +29,30 @@
 .text-center-p-3 {
   cursor: pointer;
 }
+.card-img-overlay {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(6, 4, 3);
+}
+/* .card-mb-3 {
+  display: flex;
+  flex-direction: row;
+} */
+.toast-container-position-static {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.toast-container-position-static > toast fade show > .toast-header {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.embed-responsive
+  embed-responsive-21by9
+  .embed-responsive
+  embed-responsive-4by3 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.embed-responsive embed-responsive-21by9 > .embed-responsive-item {
+  justify-content: center;
+}
