@@ -56,3 +56,13 @@
 .embed-responsive embed-responsive-21by9 > .embed-responsive-item {
   justify-content: center;
 }
+/* bi bi-union {
+  font-family: Caveat;
+} */
+
+.caveat-bi bi-union {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
